@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-14T10:52:00Z",
+  "_captured_run_id": "r_272451aa1edb4c4bb505ce66bfc4e81c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Option OBS changed to 100.",
+    "NOTE: PROC IML",
+    "NOTE: PROC PRINT completed: 4 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,15 @@
+       3
+   20000
+    6437
+     964
+    2684
+    4556
+
+                           Distribution des hauteurs - configuration critique (depot centre)
+
+HAUTEUR  EFFECTIF
+      0      6437
+      1       964
+      2      2684
+      3      4556
+
