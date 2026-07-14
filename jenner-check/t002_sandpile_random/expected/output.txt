@@ -1,0 +1,26 @@
+       1
+    3100
+
+                              Regression lineaire sur la taille des avalanches en log log
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                             Dependent Variable: log_freq_s                                             
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1        48.21691     48.21691     96.91    <.0001
+Error                  98        48.75688      0.49752                    
+Corrected Total        99        96.97379                                 
+
+Root MSE           0.70535    R-Square            0.4972
+Dependent Mean      -6.08730    Adj R-Sq            0.4921
+Coeff Var        -11.58724
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  -3.43038         0.27895    -12.30    <.0001
+LOG_S             1  -0.67754         0.06882     -9.84    <.0001
+

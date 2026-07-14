@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_sandpile_random",
+  "source_file": "Code/Sandpile Random.sas",
+  "source_blob_sha": "a6704d024d16ed464574ec4062f7b06161935848",
+  "source_commit": "49a23f5aab3a4947990733ac4fceeb2f222fcc7d",
+  "notes": "Random (stochastic) sandpile in PROC IML with seeded uniform(1) deposition and per-iteration avalanche size/duration tracking. Same toppling logic as the source; grid n=40 and z=3000 iterations (reduced from 80/200000) keep the run fast while still producing the power-law avalanche-size distribution. Retains the source's log-log CALL TABULATE export to distlogs, PROC SGPLOT, and the PROC REG log-log regression. Deterministic via the fixed uniform(1) seed: two POSTs produced identical stable fields."
+}

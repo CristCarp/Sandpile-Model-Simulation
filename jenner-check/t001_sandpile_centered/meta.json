@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_sandpile_centered",
+  "source_file": "Code/Sandpile Centered.sas",
+  "source_blob_sha": "d705986e649347700acde3135612932342916056",
+  "source_commit": "49a23f5aab3a4947990733ac4fceeb2f222fcc7d",
+  "notes": "Centered (deterministic) Bak-Tang-Wiesenfeld sandpile in PROC IML. Same toppling/redistribution logic as the source; grid reduced to n=121 with a 20000-grain central deposit so the run completes quickly and reproducibly (the source varied n across experiments). Ends with the final height distribution printed and exported via PROC PRINT instead of the on-screen heatmap. Deterministic: two POSTs produced identical stable fields."
+}

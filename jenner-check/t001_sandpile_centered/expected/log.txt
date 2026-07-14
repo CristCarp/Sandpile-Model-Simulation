@@ -1,0 +1,12 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T020019Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: PROC IML 
+
+
+NOTE: PROC IML elapsed:
+  wall  13.51 seconds
+  cpu   13.51 seconds
+NOTE: PROC PRINT data=heights
+
+NOTE: PROC PRINT completed: 4 observations printed, 2 variables
